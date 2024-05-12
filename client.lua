@@ -6,13 +6,13 @@ Citizen.CreateThread(function(source)
 
         SetDiscordAppId(Put-Yours-Here)
 		local onlinePlayers = GetNumberOfPlayers()
-        SetRichPresence(GetNumberOfPlayers().."/10")
+        SetRichPresence(GetNumberOfPlayers().."/Put youre server max here")
 
         SetDiscordRichPresenceAsset("large")
-        SetDiscordRichPresenceAssetText("Rex Dev Sever")
+        SetDiscordRichPresenceAssetText("Large Image Text")
 
         SetDiscordRichPresenceAssetSmall("min") 
-        SetDiscordRichPresenceAssetSmallText("discord.gg/rexdev")
+        SetDiscordRichPresenceAssetSmallText("Miny Image Txt")
 
     end
 end)
